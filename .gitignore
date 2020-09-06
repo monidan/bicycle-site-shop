@@ -1,0 +1,6 @@
+### IDE files
+.idea/
+
+###Project installationg files
+node_modules/
+
