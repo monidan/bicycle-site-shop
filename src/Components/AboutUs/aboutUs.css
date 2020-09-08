@@ -1,0 +1,68 @@
+#about-us {
+}
+.about-us__article{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+.about-us__description{
+    max-width: 50%;
+    padding-top: 6em;
+    color: rgb(18, 16, 14);
+}
+.about-us__description > h2{
+    margin-bottom: 0.5em;
+    opacity: 0.85;
+}
+.about-us__description > h6{
+    color: rgb(119, 100, 114);
+    margin-top: 3em;
+}
+.about-us__image-container{
+    width: 45%;
+    overflow: hidden;
+}
+.about-us__image{
+    width: 100%;
+    margin-top: -185px;
+}
+.about-us__button-container{
+    margin-top:4em ;
+}
+.about-us__button{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.8em 3em;
+
+    color: rgb(215, 217, 215);
+    background-color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    transition: color 500ms;
+    position: relative;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+.about-us__button::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(215, 217, 215);
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition-property: transform;
+    transition: 500ms ease-out;
+}
+
+/*Hovers*/
+.about-us__button:hover{
+    color: black;
+}
+.about-us__button:hover::before{
+    transform: scaleX(1);
+}

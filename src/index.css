@@ -1,4 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+.heading{
+  font-family: 'Playfair Display', sans-serif!important;
+}
+.caption{
+  font-family: 'Roboto', sans-serif!important;
 }

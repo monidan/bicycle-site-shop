@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import TextCard from "../TextCard";
 import './headerStyles.css';
 import {myTexts as texts} from "../../textValues";
-import {AiOutlineArrowDown} from 'react-icons/ai'
+import {AiOutlineArrowDown} from 'react-icons/ai';
 
 export default class Header extends Component {
     constructor(props) {
