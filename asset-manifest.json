@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bicycle-site-shop/static/css/main.e557d119.chunk.css",
+    "main.js": "/bicycle-site-shop/static/js/main.461c9b4c.chunk.js",
+    "main.js.map": "/bicycle-site-shop/static/js/main.461c9b4c.chunk.js.map",
+    "runtime-main.js": "/bicycle-site-shop/static/js/runtime-main.307434b0.js",
+    "runtime-main.js.map": "/bicycle-site-shop/static/js/runtime-main.307434b0.js.map",
+    "static/js/2.98a277a2.chunk.js": "/bicycle-site-shop/static/js/2.98a277a2.chunk.js",
+    "static/js/2.98a277a2.chunk.js.map": "/bicycle-site-shop/static/js/2.98a277a2.chunk.js.map",
+    "index.html": "/bicycle-site-shop/index.html",
+    "precache-manifest.c93b5813c3ed8cf9cd6a066f25e46e1e.js": "/bicycle-site-shop/precache-manifest.c93b5813c3ed8cf9cd6a066f25e46e1e.js",
+    "service-worker.js": "/bicycle-site-shop/service-worker.js",
+    "static/css/main.e557d119.chunk.css.map": "/bicycle-site-shop/static/css/main.e557d119.chunk.css.map",
+    "static/js/2.98a277a2.chunk.js.LICENSE.txt": "/bicycle-site-shop/static/js/2.98a277a2.chunk.js.LICENSE.txt",
+    "static/media/e-bike-article.jpg": "/bicycle-site-shop/static/media/e-bike-article.8b8e9d49.jpg",
+    "static/media/headerStyles.css": "/bicycle-site-shop/static/media/header-background-bicycle.62e77166.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.307434b0.js",
+    "static/js/2.98a277a2.chunk.js",
+    "static/css/main.e557d119.chunk.css",
+    "static/js/main.461c9b4c.chunk.js"
+  ]
+}
