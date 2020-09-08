@@ -6,6 +6,7 @@ p{
 a{
     text-decoration: none;
     color: white;
+    outline: transparent;
 }
 ul{
     list-style-type: none;
@@ -21,13 +22,16 @@ ul{
 
 
 /*Header Section*/
-.header{
+#header{
     width: 100vw;
     height: 100vh;
     background: url("../../Assets/header-background-bicycle.jpg") no-repeat center/cover;
 
     filter: grayscale(50%);
 }
+
+/*Navigation bar*/
+
 .navigation-bar{
     height: 9vh;
     display: flex;
@@ -84,9 +88,66 @@ ul{
     color: rgb(121, 101, 19);
 }
 
+/*Greeting section*/
+
+.header__greeting{
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white
+}
+.header__text-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-card__title{
+    font-family: 'Playfair Display', sans-serif!important;
+    font-size: 5rem!important;
+    line-height: 2!important;
+}
+.text-card__caption{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 1.5rem!important;
+    color: rgb(211,211,211);
+}
+.arrow-down{
+    color: white;
+    font-size: 50px;
+    align-self: center;
+    cursor: pointer;
+    animation: downarrow 0.8s infinite alternate ease-in-out;
+    box-sizing: border-box;
+    transition: .2s;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    position: absolute;
+    bottom: 10%;
+}
 /*Hover effects*/
 
 .nav-item > a:hover:after{
     width: 100%;
     right: 0;
+}
+.arrow-down:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/*Keyframes*/
+
+@keyframes downarrow {
+    0%{
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+    100%{
+        transform: translateY(0.2em);
+        opacity: 1;
+    }
 }
